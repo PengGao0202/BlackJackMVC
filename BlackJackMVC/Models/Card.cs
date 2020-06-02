@@ -1,11 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using System.Drawing;
-using Microsoft.VisualStudio.TestPlatform.CommunicationUtilities.Resources;
-
-namespace BlackJackMVC.Models
+﻿
+namespace BlackJack.CardGameFramework
 {
     /// <summary>
     /// Card suit values

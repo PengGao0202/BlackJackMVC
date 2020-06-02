@@ -17,8 +17,6 @@ namespace BlackJackMVC
         public static void Main(string[] args)
         {
             CreateWebHostBuilder(args).Build().Run();
-            //Application.EnableVisualStyles();
-            //Application.Run(new StartForm());
         }
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>

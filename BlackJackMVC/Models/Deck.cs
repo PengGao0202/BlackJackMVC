@@ -1,11 +1,7 @@
-﻿using NUnit.Framework;
-using System;
+﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using static BlackJackMVC.Models.Card;
 
-namespace BlackJackMVC.Models
+namespace BlackJack.CardGameFramework
 {
     public class Deck
     {
@@ -67,5 +63,3 @@ namespace BlackJackMVC.Models
         }
     }
 }
-
-

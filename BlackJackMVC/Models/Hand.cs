@@ -1,9 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
-namespace BlackJackMVC.Models
+namespace BlackJack.CardGameFramework
 {
     public class Hand
     {
@@ -29,6 +27,7 @@ namespace BlackJackMVC.Models
             return false;
         }
     }
+
     /// <summary>
     /// This class is game-specific.  Creates a BlackJack hand that inherits from class hand
     /// </summary>

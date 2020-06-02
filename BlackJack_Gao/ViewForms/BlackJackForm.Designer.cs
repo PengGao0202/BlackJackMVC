@@ -404,8 +404,8 @@
             this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.button1.Font = new System.Drawing.Font("Wide Latin", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.Blue;
             this.button1.Location = new System.Drawing.Point(45, 458);
             this.button1.Margin = new System.Windows.Forms.Padding(0);
             this.button1.Name = "button1";
@@ -427,7 +427,7 @@
             this.myAccountTextBox.ReadOnly = true;
             this.myAccountTextBox.Size = new System.Drawing.Size(82, 28);
             this.myAccountTextBox.TabIndex = 1;
-            this.myAccountTextBox.Text = "2000";
+            this.myAccountTextBox.Text = "500";
             this.myAccountTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // myAccountLabel
@@ -439,9 +439,9 @@
             this.myAccountLabel.Location = new System.Drawing.Point(130, 10);
             this.myAccountLabel.Margin = new System.Windows.Forms.Padding(3, 3, 3, 1);
             this.myAccountLabel.Name = "myAccountLabel";
-            this.myAccountLabel.Size = new System.Drawing.Size(102, 20);
+            this.myAccountLabel.Size = new System.Drawing.Size(141, 20);
             this.myAccountLabel.TabIndex = 6;
-            this.myAccountLabel.Text = "My Account";
+            this.myAccountLabel.Text = "Player\'s Balance";
             // 
             // lossTextBox
             // 

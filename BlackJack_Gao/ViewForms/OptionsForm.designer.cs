@@ -48,7 +48,7 @@
             this.optionsLabel.AutoSize = true;
             this.optionsLabel.BackColor = System.Drawing.Color.Transparent;
             this.optionsLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.optionsLabel.ForeColor = System.Drawing.Color.White;
+            this.optionsLabel.ForeColor = System.Drawing.Color.Coral;
             this.optionsLabel.Location = new System.Drawing.Point(207, 31);
             this.optionsLabel.Name = "optionsLabel";
             this.optionsLabel.Size = new System.Drawing.Size(235, 39);
@@ -60,6 +60,7 @@
             // 
             this.playerNameTextBox.BackColor = System.Drawing.Color.Silver;
             this.playerNameTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", global::BlackJack.Properties.Settings.Default, "PlayerName", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.playerNameTextBox.ForeColor = System.Drawing.Color.Blue;
             this.playerNameTextBox.Location = new System.Drawing.Point(221, 111);
             this.playerNameTextBox.Name = "playerNameTextBox";
             this.playerNameTextBox.Size = new System.Drawing.Size(171, 32);
@@ -71,7 +72,7 @@
             this.playerNameLabel.AutoSize = true;
             this.playerNameLabel.BackColor = System.Drawing.Color.Transparent;
             this.playerNameLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.playerNameLabel.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.playerNameLabel.ForeColor = System.Drawing.Color.Coral;
             this.playerNameLabel.Location = new System.Drawing.Point(26, 113);
             this.playerNameLabel.Name = "playerNameLabel";
             this.playerNameLabel.Size = new System.Drawing.Size(146, 25);
@@ -96,7 +97,7 @@
             this.playerPictureLabel.AutoSize = true;
             this.playerPictureLabel.BackColor = System.Drawing.Color.Transparent;
             this.playerPictureLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.playerPictureLabel.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.playerPictureLabel.ForeColor = System.Drawing.Color.Coral;
             this.playerPictureLabel.Location = new System.Drawing.Point(26, 254);
             this.playerPictureLabel.Name = "playerPictureLabel";
             this.playerPictureLabel.Size = new System.Drawing.Size(160, 25);
@@ -134,6 +135,7 @@
             this.okButton.FlatAppearance.BorderSize = 0;
             this.okButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.okButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.okButton.ForeColor = System.Drawing.Color.Blue;
             this.okButton.Location = new System.Drawing.Point(205, 433);
             this.okButton.Name = "okButton";
             this.okButton.Size = new System.Drawing.Size(108, 41);
@@ -150,6 +152,7 @@
             this.cancelButton.FlatAppearance.BorderSize = 0;
             this.cancelButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.cancelButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cancelButton.ForeColor = System.Drawing.Color.Blue;
             this.cancelButton.Location = new System.Drawing.Point(334, 433);
             this.cancelButton.Name = "cancelButton";
             this.cancelButton.Size = new System.Drawing.Size(108, 41);
@@ -163,7 +166,7 @@
             this.previewLabel.AutoSize = true;
             this.previewLabel.BackColor = System.Drawing.Color.Transparent;
             this.previewLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.previewLabel.ForeColor = System.Drawing.Color.White;
+            this.previewLabel.ForeColor = System.Drawing.Color.Coral;
             this.previewLabel.Location = new System.Drawing.Point(453, 180);
             this.previewLabel.Name = "previewLabel";
             this.previewLabel.Size = new System.Drawing.Size(95, 25);

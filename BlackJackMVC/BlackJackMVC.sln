@@ -5,8 +5,6 @@ VisualStudioVersion = 16.0.30002.166
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlackJackMVC", "BlackJackMVC.csproj", "{D554A22D-B3E9-45E4-BBDC-BEC3E0FD3B67}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlackJacksWebForm", "..\BlackJacksWebForm\BlackJacksWebForm.csproj", "{CD706495-DCFD-4E01-ABB0-D45CFB08FC9B}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackJackApp", "..\BackJackApp\BackJackApp.csproj", "{0C1A164A-92F4-4BAD-AB04-06BD3D0AD677}"
 EndProject
 Global
@@ -19,10 +17,6 @@ Global
 		{D554A22D-B3E9-45E4-BBDC-BEC3E0FD3B67}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D554A22D-B3E9-45E4-BBDC-BEC3E0FD3B67}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D554A22D-B3E9-45E4-BBDC-BEC3E0FD3B67}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CD706495-DCFD-4E01-ABB0-D45CFB08FC9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CD706495-DCFD-4E01-ABB0-D45CFB08FC9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CD706495-DCFD-4E01-ABB0-D45CFB08FC9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CD706495-DCFD-4E01-ABB0-D45CFB08FC9B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0C1A164A-92F4-4BAD-AB04-06BD3D0AD677}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0C1A164A-92F4-4BAD-AB04-06BD3D0AD677}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C1A164A-92F4-4BAD-AB04-06BD3D0AD677}.Release|Any CPU.ActiveCfg = Release|Any CPU
