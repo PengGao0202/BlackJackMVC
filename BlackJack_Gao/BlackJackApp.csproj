@@ -138,11 +138,6 @@
     <None Include="Resources\TextFieldTop.gif" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Documentation\CardGameStarterKit.htm" />
-    <Content Include="Documentation\Images\blackjack.JPG" />
-    <Content Include="Documentation\Images\side-vc.gif" />
-    <Content Include="Documentation\Images\topjump-vc.gif" />
-    <Content Include="Documentation\Images\top-vc.gif" />
     <Content Include="Images\Cards\cardSkin.png" />
     <Content Include="Images\Cards\cl1.gif" />
     <Content Include="Images\Cards\cl10.gif" />

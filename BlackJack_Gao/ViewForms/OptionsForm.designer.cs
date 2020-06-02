@@ -49,11 +49,11 @@
             this.optionsLabel.BackColor = System.Drawing.Color.Transparent;
             this.optionsLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.optionsLabel.ForeColor = System.Drawing.Color.White;
-            this.optionsLabel.Location = new System.Drawing.Point(24, 9);
+            this.optionsLabel.Location = new System.Drawing.Point(207, 31);
             this.optionsLabel.Name = "optionsLabel";
-            this.optionsLabel.Size = new System.Drawing.Size(322, 39);
+            this.optionsLabel.Size = new System.Drawing.Size(235, 39);
             this.optionsLabel.TabIndex = 0;
-            this.optionsLabel.Text = "BlackJack Options";
+            this.optionsLabel.Text = "Select Player";
             this.optionsLabel.Click += new System.EventHandler(this.optionsLabel_Click);
             // 
             // playerNameTextBox

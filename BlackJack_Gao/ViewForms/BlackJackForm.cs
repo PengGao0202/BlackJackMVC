@@ -121,6 +121,16 @@ namespace BlackJack
         }
 
         /// <summary>
+        /// Place a bet for 1 dollar
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Bet(1);
+        }
+
+        /// <summary>
         /// Place a bet for 10 dollars
         /// </summary>
         /// <param name="sender"></param>
@@ -150,14 +160,16 @@ namespace BlackJack
             Bet(50);
         }
 
-        /// <summary>
-        /// Place a bet for 100 dollars
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
+        // Place a bet for 100 dollars
         private void HundredBtn_Click(object sender, EventArgs e)
         {
             Bet(100);
+        }
+        
+        // Bet All!
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            Bet(game.CurrentPlayer.Balance - game.CurrentPlayer.Bet);
         }
 
         /// <summary>
@@ -491,6 +503,9 @@ namespace BlackJack
                 MessageBox.Show("Card images are not loading correctly.  Make sure all card images are in the right location.");
             }
         }
+
         #endregion
+
+        
     }
 }

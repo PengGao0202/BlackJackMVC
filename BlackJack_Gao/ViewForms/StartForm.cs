@@ -5,19 +5,13 @@ namespace BlackJack
 {
     partial class StartForm : Form
     {
-        /// <summary>
-        /// Main constructor for StartForm
-        /// </summary>
+        // Main constructor for StartForm
         public StartForm()
         {
             InitializeComponent();
         }
 
-        /// <summary>
-        /// Invokes a new BlackJack game
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
+        //Start a new game
         private void NewGameBtn_Click(object sender, EventArgs e)
         {
             // Show the main BlackJack UI game
@@ -29,11 +23,7 @@ namespace BlackJack
             }
         }
 
-        /// <summary>
-        /// Brings up the options form
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
+        //Go to option form to select player
         private void OptionsBtn_Click(object sender, EventArgs e)
         {
             // Show the Options panel
@@ -45,11 +35,7 @@ namespace BlackJack
             }
         }
 
-        /// <summary>
-        /// Exits the application
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
+        // Exits the application
         private void ExitBtn_Click(object sender, EventArgs e)
         {
             // Exit the Game

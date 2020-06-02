@@ -28,14 +28,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(BlackJackForm));
-            this.clearBetButton = new System.Windows.Forms.Button();
-            this.myBetLabel = new System.Windows.Forms.Label();
-            this.myAccountLabel = new System.Windows.Forms.Label();
-            this.myBetTextBox = new System.Windows.Forms.TextBox();
-            this.hundredButton = new System.Windows.Forms.Button();
-            this.twentyFiveButton = new System.Windows.Forms.Button();
-            this.tenButton = new System.Windows.Forms.Button();
-            this.myAccountTextBox = new System.Windows.Forms.TextBox();
             this.deckCard3PictureBox = new System.Windows.Forms.PictureBox();
             this.deckCard2PictureBox = new System.Windows.Forms.PictureBox();
             this.deckCard1PictureBox = new System.Windows.Forms.PictureBox();
@@ -46,12 +38,6 @@
             this.dealerCard3PictureBox = new System.Windows.Forms.PictureBox();
             this.dealerCard2PictureBox = new System.Windows.Forms.PictureBox();
             this.dealerCard1PictureBox = new System.Windows.Forms.PictureBox();
-            this.tiesTextBox = new System.Windows.Forms.TextBox();
-            this.tiesLabel = new System.Windows.Forms.Label();
-            this.lossTextBox = new System.Windows.Forms.TextBox();
-            this.lossesLabel = new System.Windows.Forms.Label();
-            this.winsLabel = new System.Windows.Forms.Label();
-            this.winTextBox = new System.Windows.Forms.TextBox();
             this.endGameButton = new System.Windows.Forms.Button();
             this.standButton = new System.Windows.Forms.Button();
             this.dealButton = new System.Windows.Forms.Button();
@@ -64,11 +50,27 @@
             this.playerCard6 = new System.Windows.Forms.PictureBox();
             this.playerTotalLabel = new System.Windows.Forms.Label();
             this.framePictureBox = new System.Windows.Forms.PictureBox();
-            this.recordPanel = new System.Windows.Forms.Panel();
-            this.betPanel = new System.Windows.Forms.Panel();
-            this.fiftyButton = new System.Windows.Forms.Button();
             this.playerNameLabel = new System.Windows.Forms.Label();
             this.photoPictureBox = new System.Windows.Forms.PictureBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.myAccountTextBox = new System.Windows.Forms.TextBox();
+            this.myAccountLabel = new System.Windows.Forms.Label();
+            this.lossTextBox = new System.Windows.Forms.TextBox();
+            this.tiesTextBox = new System.Windows.Forms.TextBox();
+            this.winTextBox = new System.Windows.Forms.TextBox();
+            this.winsLabel = new System.Windows.Forms.Label();
+            this.tiesLabel = new System.Windows.Forms.Label();
+            this.lossesLabel = new System.Windows.Forms.Label();
+            this.recordPanel = new System.Windows.Forms.Panel();
+            this.tenButton = new System.Windows.Forms.Button();
+            this.hundredButton = new System.Windows.Forms.Button();
+            this.myBetLabel = new System.Windows.Forms.Label();
+            this.myBetTextBox = new System.Windows.Forms.TextBox();
+            this.fiftyButton = new System.Windows.Forms.Button();
+            this.clearBetButton = new System.Windows.Forms.Button();
+            this.twentyFiveButton = new System.Windows.Forms.Button();
+            this.oneButton = new System.Windows.Forms.Button();
+            this.betPanel = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.deckCard3PictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.deckCard2PictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.deckCard1PictureBox)).BeginInit();
@@ -85,138 +87,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.playerCard5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.playerCard6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.framePictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.photoPictureBox)).BeginInit();
             this.recordPanel.SuspendLayout();
             this.betPanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.photoPictureBox)).BeginInit();
             this.SuspendLayout();
-            // 
-            // clearBetButton
-            // 
-            this.clearBetButton.BackColor = System.Drawing.Color.Transparent;
-            this.clearBetButton.BackgroundImage = global::BlackJack.Properties.Resources.ButtonSquare;
-            this.clearBetButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.clearBetButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.clearBetButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.clearBetButton.Location = new System.Drawing.Point(456, 15);
-            this.clearBetButton.Name = "clearBetButton";
-            this.clearBetButton.Size = new System.Drawing.Size(81, 30);
-            this.clearBetButton.TabIndex = 10;
-            this.clearBetButton.Text = "Clear";
-            this.clearBetButton.UseVisualStyleBackColor = false;
-            this.clearBetButton.Click += new System.EventHandler(this.ClearBetBtn_Click);
-            // 
-            // myBetLabel
-            // 
-            this.myBetLabel.AutoSize = true;
-            this.myBetLabel.BackColor = System.Drawing.Color.Transparent;
-            this.myBetLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.myBetLabel.ForeColor = System.Drawing.Color.Gold;
-            this.myBetLabel.Location = new System.Drawing.Point(360, 38);
-            this.myBetLabel.Name = "myBetLabel";
-            this.myBetLabel.Size = new System.Drawing.Size(64, 20);
-            this.myBetLabel.TabIndex = 7;
-            this.myBetLabel.Text = "My Bet";
-            // 
-            // myAccountLabel
-            // 
-            this.myAccountLabel.AutoSize = true;
-            this.myAccountLabel.BackColor = System.Drawing.Color.Transparent;
-            this.myAccountLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.myAccountLabel.ForeColor = System.Drawing.Color.Gold;
-            this.myAccountLabel.Location = new System.Drawing.Point(130, 10);
-            this.myAccountLabel.Margin = new System.Windows.Forms.Padding(3, 3, 3, 1);
-            this.myAccountLabel.Name = "myAccountLabel";
-            this.myAccountLabel.Size = new System.Drawing.Size(102, 20);
-            this.myAccountLabel.TabIndex = 6;
-            this.myAccountLabel.Text = "My Account";
-            // 
-            // myBetTextBox
-            // 
-            this.myBetTextBox.BackColor = System.Drawing.SystemColors.InfoText;
-            this.myBetTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.myBetTextBox.ForeColor = System.Drawing.Color.Orange;
-            this.myBetTextBox.Location = new System.Drawing.Point(358, 12);
-            this.myBetTextBox.Multiline = true;
-            this.myBetTextBox.Name = "myBetTextBox";
-            this.myBetTextBox.ReadOnly = true;
-            this.myBetTextBox.Size = new System.Drawing.Size(64, 25);
-            this.myBetTextBox.TabIndex = 9;
-            this.myBetTextBox.Text = "0";
-            this.myBetTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // hundredButton
-            // 
-            this.hundredButton.BackColor = System.Drawing.Color.Transparent;
-            this.hundredButton.BackgroundImage = global::BlackJack.Properties.Resources.coin4;
-            this.hundredButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.hundredButton.FlatAppearance.BorderSize = 0;
-            this.hundredButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.hundredButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.hundredButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.hundredButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hundredButton.Location = new System.Drawing.Point(261, -1);
-            this.hundredButton.Margin = new System.Windows.Forms.Padding(0);
-            this.hundredButton.Name = "hundredButton";
-            this.hundredButton.Size = new System.Drawing.Size(61, 63);
-            this.hundredButton.TabIndex = 8;
-            this.hundredButton.Text = "100";
-            this.hundredButton.UseVisualStyleBackColor = false;
-            this.hundredButton.Click += new System.EventHandler(this.HundredBtn_Click);
-            // 
-            // twentyFiveButton
-            // 
-            this.twentyFiveButton.BackColor = System.Drawing.Color.Transparent;
-            this.twentyFiveButton.BackgroundImage = global::BlackJack.Properties.Resources.coin2;
-            this.twentyFiveButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.twentyFiveButton.FlatAppearance.BorderSize = 0;
-            this.twentyFiveButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.twentyFiveButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.twentyFiveButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.twentyFiveButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.twentyFiveButton.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.twentyFiveButton.Location = new System.Drawing.Point(109, -1);
-            this.twentyFiveButton.Margin = new System.Windows.Forms.Padding(0);
-            this.twentyFiveButton.Name = "twentyFiveButton";
-            this.twentyFiveButton.Size = new System.Drawing.Size(60, 62);
-            this.twentyFiveButton.TabIndex = 6;
-            this.twentyFiveButton.Text = "25";
-            this.twentyFiveButton.UseVisualStyleBackColor = false;
-            this.twentyFiveButton.Click += new System.EventHandler(this.TwentyFiveBtn_Click);
-            // 
-            // tenButton
-            // 
-            this.tenButton.BackColor = System.Drawing.Color.Transparent;
-            this.tenButton.BackgroundImage = global::BlackJack.Properties.Resources.coin1;
-            this.tenButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.tenButton.FlatAppearance.BorderSize = 0;
-            this.tenButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.tenButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.tenButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.tenButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tenButton.Location = new System.Drawing.Point(31, -1);
-            this.tenButton.Margin = new System.Windows.Forms.Padding(0);
-            this.tenButton.Name = "tenButton";
-            this.tenButton.Size = new System.Drawing.Size(60, 62);
-            this.tenButton.TabIndex = 5;
-            this.tenButton.Tag = "10";
-            this.tenButton.Text = "10";
-            this.tenButton.UseVisualStyleBackColor = false;
-            this.tenButton.Click += new System.EventHandler(this.TenBtn_Click);
-            // 
-            // myAccountTextBox
-            // 
-            this.myAccountTextBox.BackColor = System.Drawing.SystemColors.InfoText;
-            this.myAccountTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.myAccountTextBox.ForeColor = System.Drawing.Color.Orange;
-            this.myAccountTextBox.Location = new System.Drawing.Point(138, 34);
-            this.myAccountTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 3);
-            this.myAccountTextBox.Multiline = true;
-            this.myAccountTextBox.Name = "myAccountTextBox";
-            this.myAccountTextBox.ReadOnly = true;
-            this.myAccountTextBox.Size = new System.Drawing.Size(82, 28);
-            this.myAccountTextBox.TabIndex = 1;
-            this.myAccountTextBox.Text = "2000";
-            this.myAccountTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // deckCard3PictureBox
             // 
@@ -333,83 +207,6 @@
             this.dealerCard1PictureBox.TabStop = false;
             this.dealerCard1PictureBox.Visible = false;
             // 
-            // tiesTextBox
-            // 
-            this.tiesTextBox.BackColor = System.Drawing.SystemColors.InfoText;
-            this.tiesTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tiesTextBox.ForeColor = System.Drawing.Color.DarkOrange;
-            this.tiesTextBox.Location = new System.Drawing.Point(529, 33);
-            this.tiesTextBox.Multiline = true;
-            this.tiesTextBox.Name = "tiesTextBox";
-            this.tiesTextBox.ReadOnly = true;
-            this.tiesTextBox.Size = new System.Drawing.Size(32, 28);
-            this.tiesTextBox.TabIndex = 4;
-            this.tiesTextBox.Text = "0";
-            this.tiesTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // tiesLabel
-            // 
-            this.tiesLabel.AutoSize = true;
-            this.tiesLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tiesLabel.ForeColor = System.Drawing.Color.Gold;
-            this.tiesLabel.Location = new System.Drawing.Point(526, 10);
-            this.tiesLabel.Name = "tiesLabel";
-            this.tiesLabel.Size = new System.Drawing.Size(42, 20);
-            this.tiesLabel.TabIndex = 4;
-            this.tiesLabel.Text = "Ties";
-            // 
-            // lossTextBox
-            // 
-            this.lossTextBox.BackColor = System.Drawing.SystemColors.InfoText;
-            this.lossTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lossTextBox.ForeColor = System.Drawing.Color.DarkOrange;
-            this.lossTextBox.Location = new System.Drawing.Point(420, 33);
-            this.lossTextBox.Multiline = true;
-            this.lossTextBox.Name = "lossTextBox";
-            this.lossTextBox.ReadOnly = true;
-            this.lossTextBox.Size = new System.Drawing.Size(32, 28);
-            this.lossTextBox.TabIndex = 3;
-            this.lossTextBox.Text = "0";
-            this.lossTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // lossesLabel
-            // 
-            this.lossesLabel.AutoSize = true;
-            this.lossesLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lossesLabel.ForeColor = System.Drawing.Color.Gold;
-            this.lossesLabel.Location = new System.Drawing.Point(408, 10);
-            this.lossesLabel.Name = "lossesLabel";
-            this.lossesLabel.Size = new System.Drawing.Size(66, 20);
-            this.lossesLabel.TabIndex = 2;
-            this.lossesLabel.Text = "Losses";
-            // 
-            // winsLabel
-            // 
-            this.winsLabel.AutoSize = true;
-            this.winsLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.winsLabel.ForeColor = System.Drawing.Color.Gold;
-            this.winsLabel.Location = new System.Drawing.Point(295, 10);
-            this.winsLabel.Margin = new System.Windows.Forms.Padding(3, 3, 3, 1);
-            this.winsLabel.Name = "winsLabel";
-            this.winsLabel.Size = new System.Drawing.Size(48, 20);
-            this.winsLabel.TabIndex = 1;
-            this.winsLabel.Text = "Wins";
-            // 
-            // winTextBox
-            // 
-            this.winTextBox.BackColor = System.Drawing.SystemColors.InfoText;
-            this.winTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.winTextBox.ForeColor = System.Drawing.Color.DarkOrange;
-            this.winTextBox.Location = new System.Drawing.Point(302, 34);
-            this.winTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 3);
-            this.winTextBox.Multiline = true;
-            this.winTextBox.Name = "winTextBox";
-            this.winTextBox.ReadOnly = true;
-            this.winTextBox.Size = new System.Drawing.Size(32, 28);
-            this.winTextBox.TabIndex = 2;
-            this.winTextBox.Text = "0";
-            this.winTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
             // endGameButton
             // 
             this.endGameButton.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
@@ -421,7 +218,7 @@
             this.endGameButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.endGameButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.endGameButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.endGameButton.Location = new System.Drawing.Point(589, 654);
+            this.endGameButton.Location = new System.Drawing.Point(524, 654);
             this.endGameButton.Name = "endGameButton";
             this.endGameButton.Size = new System.Drawing.Size(112, 39);
             this.endGameButton.TabIndex = 15;
@@ -440,7 +237,7 @@
             this.standButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.standButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.standButton.ForeColor = System.Drawing.Color.Black;
-            this.standButton.Location = new System.Drawing.Point(317, 655);
+            this.standButton.Location = new System.Drawing.Point(252, 655);
             this.standButton.Name = "standButton";
             this.standButton.Size = new System.Drawing.Size(112, 39);
             this.standButton.TabIndex = 13;
@@ -460,7 +257,7 @@
             this.dealButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.dealButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dealButton.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.dealButton.Location = new System.Drawing.Point(452, 655);
+            this.dealButton.Location = new System.Drawing.Point(387, 655);
             this.dealButton.Name = "dealButton";
             this.dealButton.Size = new System.Drawing.Size(112, 39);
             this.dealButton.TabIndex = 14;
@@ -479,7 +276,7 @@
             this.hitButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.hitButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.hitButton.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.hitButton.Location = new System.Drawing.Point(178, 655);
+            this.hitButton.Location = new System.Drawing.Point(113, 655);
             this.hitButton.Margin = new System.Windows.Forms.Padding(0);
             this.hitButton.Name = "hitButton";
             this.hitButton.Size = new System.Drawing.Size(112, 39);
@@ -575,6 +372,154 @@
             this.framePictureBox.TabIndex = 16;
             this.framePictureBox.TabStop = false;
             // 
+            // playerNameLabel
+            // 
+            this.playerNameLabel.BackColor = System.Drawing.Color.Transparent;
+            this.playerNameLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.playerNameLabel.ForeColor = System.Drawing.SystemColors.Control;
+            this.playerNameLabel.Location = new System.Drawing.Point(277, 540);
+            this.playerNameLabel.Name = "playerNameLabel";
+            this.playerNameLabel.Size = new System.Drawing.Size(100, 23);
+            this.playerNameLabel.TabIndex = 26;
+            this.playerNameLabel.Text = "Player 1";
+            this.playerNameLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // photoPictureBox
+            // 
+            this.photoPictureBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.photoPictureBox.ImageLocation = "";
+            this.photoPictureBox.Location = new System.Drawing.Point(293, 407);
+            this.photoPictureBox.Name = "photoPictureBox";
+            this.photoPictureBox.Size = new System.Drawing.Size(109, 110);
+            this.photoPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.photoPictureBox.TabIndex = 17;
+            this.photoPictureBox.TabStop = false;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Transparent;
+            this.button1.BackgroundImage = global::BlackJack.Properties.Resources.ButtonRound;
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.button1.Location = new System.Drawing.Point(45, 458);
+            this.button1.Margin = new System.Windows.Forms.Padding(0);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(112, 73);
+            this.button1.TabIndex = 27;
+            this.button1.Text = "BET ALL !!!";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
+            // 
+            // myAccountTextBox
+            // 
+            this.myAccountTextBox.BackColor = System.Drawing.SystemColors.InfoText;
+            this.myAccountTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.myAccountTextBox.ForeColor = System.Drawing.Color.Orange;
+            this.myAccountTextBox.Location = new System.Drawing.Point(138, 34);
+            this.myAccountTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 3);
+            this.myAccountTextBox.Multiline = true;
+            this.myAccountTextBox.Name = "myAccountTextBox";
+            this.myAccountTextBox.ReadOnly = true;
+            this.myAccountTextBox.Size = new System.Drawing.Size(82, 28);
+            this.myAccountTextBox.TabIndex = 1;
+            this.myAccountTextBox.Text = "2000";
+            this.myAccountTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // myAccountLabel
+            // 
+            this.myAccountLabel.AutoSize = true;
+            this.myAccountLabel.BackColor = System.Drawing.Color.Transparent;
+            this.myAccountLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.myAccountLabel.ForeColor = System.Drawing.Color.Gold;
+            this.myAccountLabel.Location = new System.Drawing.Point(130, 10);
+            this.myAccountLabel.Margin = new System.Windows.Forms.Padding(3, 3, 3, 1);
+            this.myAccountLabel.Name = "myAccountLabel";
+            this.myAccountLabel.Size = new System.Drawing.Size(102, 20);
+            this.myAccountLabel.TabIndex = 6;
+            this.myAccountLabel.Text = "My Account";
+            // 
+            // lossTextBox
+            // 
+            this.lossTextBox.BackColor = System.Drawing.SystemColors.InfoText;
+            this.lossTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lossTextBox.ForeColor = System.Drawing.Color.DarkOrange;
+            this.lossTextBox.Location = new System.Drawing.Point(420, 33);
+            this.lossTextBox.Multiline = true;
+            this.lossTextBox.Name = "lossTextBox";
+            this.lossTextBox.ReadOnly = true;
+            this.lossTextBox.Size = new System.Drawing.Size(32, 28);
+            this.lossTextBox.TabIndex = 3;
+            this.lossTextBox.Text = "0";
+            this.lossTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // tiesTextBox
+            // 
+            this.tiesTextBox.BackColor = System.Drawing.SystemColors.InfoText;
+            this.tiesTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tiesTextBox.ForeColor = System.Drawing.Color.DarkOrange;
+            this.tiesTextBox.Location = new System.Drawing.Point(529, 33);
+            this.tiesTextBox.Multiline = true;
+            this.tiesTextBox.Name = "tiesTextBox";
+            this.tiesTextBox.ReadOnly = true;
+            this.tiesTextBox.Size = new System.Drawing.Size(32, 28);
+            this.tiesTextBox.TabIndex = 4;
+            this.tiesTextBox.Text = "0";
+            this.tiesTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // winTextBox
+            // 
+            this.winTextBox.BackColor = System.Drawing.SystemColors.InfoText;
+            this.winTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.winTextBox.ForeColor = System.Drawing.Color.DarkOrange;
+            this.winTextBox.Location = new System.Drawing.Point(302, 34);
+            this.winTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 3);
+            this.winTextBox.Multiline = true;
+            this.winTextBox.Name = "winTextBox";
+            this.winTextBox.ReadOnly = true;
+            this.winTextBox.Size = new System.Drawing.Size(32, 28);
+            this.winTextBox.TabIndex = 2;
+            this.winTextBox.Text = "0";
+            this.winTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // winsLabel
+            // 
+            this.winsLabel.AutoSize = true;
+            this.winsLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.winsLabel.ForeColor = System.Drawing.Color.Gold;
+            this.winsLabel.Location = new System.Drawing.Point(295, 10);
+            this.winsLabel.Margin = new System.Windows.Forms.Padding(3, 3, 3, 1);
+            this.winsLabel.Name = "winsLabel";
+            this.winsLabel.Size = new System.Drawing.Size(48, 20);
+            this.winsLabel.TabIndex = 1;
+            this.winsLabel.Text = "Wins";
+            // 
+            // tiesLabel
+            // 
+            this.tiesLabel.AutoSize = true;
+            this.tiesLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tiesLabel.ForeColor = System.Drawing.Color.Gold;
+            this.tiesLabel.Location = new System.Drawing.Point(526, 10);
+            this.tiesLabel.Name = "tiesLabel";
+            this.tiesLabel.Size = new System.Drawing.Size(42, 20);
+            this.tiesLabel.TabIndex = 4;
+            this.tiesLabel.Text = "Ties";
+            // 
+            // lossesLabel
+            // 
+            this.lossesLabel.AutoSize = true;
+            this.lossesLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lossesLabel.ForeColor = System.Drawing.Color.Gold;
+            this.lossesLabel.Location = new System.Drawing.Point(408, 10);
+            this.lossesLabel.Name = "lossesLabel";
+            this.lossesLabel.Size = new System.Drawing.Size(66, 20);
+            this.lossesLabel.TabIndex = 2;
+            this.lossesLabel.Text = "Losses";
+            // 
             // recordPanel
             // 
             this.recordPanel.BackColor = System.Drawing.Color.Transparent;
@@ -590,25 +535,73 @@
             this.recordPanel.Controls.Add(this.myAccountTextBox);
             this.recordPanel.Location = new System.Drawing.Point(5, 24);
             this.recordPanel.Name = "recordPanel";
-            this.recordPanel.Size = new System.Drawing.Size(705, 72);
+            this.recordPanel.Size = new System.Drawing.Size(705, 75);
             this.recordPanel.TabIndex = 24;
             // 
-            // betPanel
+            // tenButton
             // 
-            this.betPanel.BackColor = System.Drawing.Color.Transparent;
-            this.betPanel.BackgroundImage = global::BlackJack.Properties.Resources.BorderPlaceYourBetBottom;
-            this.betPanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.betPanel.Controls.Add(this.twentyFiveButton);
-            this.betPanel.Controls.Add(this.clearBetButton);
-            this.betPanel.Controls.Add(this.fiftyButton);
-            this.betPanel.Controls.Add(this.myBetTextBox);
-            this.betPanel.Controls.Add(this.myBetLabel);
-            this.betPanel.Controls.Add(this.hundredButton);
-            this.betPanel.Controls.Add(this.tenButton);
-            this.betPanel.Location = new System.Drawing.Point(79, 574);
-            this.betPanel.Name = "betPanel";
-            this.betPanel.Size = new System.Drawing.Size(567, 68);
-            this.betPanel.TabIndex = 25;
+            this.tenButton.BackColor = System.Drawing.Color.Transparent;
+            this.tenButton.BackgroundImage = global::BlackJack.Properties.Resources.coin1;
+            this.tenButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.tenButton.FlatAppearance.BorderSize = 0;
+            this.tenButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.tenButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.tenButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.tenButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tenButton.Location = new System.Drawing.Point(118, -1);
+            this.tenButton.Margin = new System.Windows.Forms.Padding(0);
+            this.tenButton.Name = "tenButton";
+            this.tenButton.Size = new System.Drawing.Size(60, 62);
+            this.tenButton.TabIndex = 5;
+            this.tenButton.Tag = "10";
+            this.tenButton.Text = "10";
+            this.tenButton.UseVisualStyleBackColor = false;
+            this.tenButton.Click += new System.EventHandler(this.TenBtn_Click);
+            // 
+            // hundredButton
+            // 
+            this.hundredButton.BackColor = System.Drawing.Color.Transparent;
+            this.hundredButton.BackgroundImage = global::BlackJack.Properties.Resources.coin4;
+            this.hundredButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.hundredButton.FlatAppearance.BorderSize = 0;
+            this.hundredButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.hundredButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.hundredButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.hundredButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.hundredButton.Location = new System.Drawing.Point(348, -1);
+            this.hundredButton.Margin = new System.Windows.Forms.Padding(0);
+            this.hundredButton.Name = "hundredButton";
+            this.hundredButton.Size = new System.Drawing.Size(61, 63);
+            this.hundredButton.TabIndex = 8;
+            this.hundredButton.Text = "100";
+            this.hundredButton.UseVisualStyleBackColor = false;
+            this.hundredButton.Click += new System.EventHandler(this.HundredBtn_Click);
+            // 
+            // myBetLabel
+            // 
+            this.myBetLabel.AutoSize = true;
+            this.myBetLabel.BackColor = System.Drawing.Color.Transparent;
+            this.myBetLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.myBetLabel.ForeColor = System.Drawing.Color.Gold;
+            this.myBetLabel.Location = new System.Drawing.Point(447, 38);
+            this.myBetLabel.Name = "myBetLabel";
+            this.myBetLabel.Size = new System.Drawing.Size(64, 20);
+            this.myBetLabel.TabIndex = 7;
+            this.myBetLabel.Text = "My Bet";
+            // 
+            // myBetTextBox
+            // 
+            this.myBetTextBox.BackColor = System.Drawing.SystemColors.InfoText;
+            this.myBetTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.myBetTextBox.ForeColor = System.Drawing.Color.Orange;
+            this.myBetTextBox.Location = new System.Drawing.Point(445, 12);
+            this.myBetTextBox.Multiline = true;
+            this.myBetTextBox.Name = "myBetTextBox";
+            this.myBetTextBox.ReadOnly = true;
+            this.myBetTextBox.Size = new System.Drawing.Size(64, 25);
+            this.myBetTextBox.TabIndex = 9;
+            this.myBetTextBox.Text = "0";
+            this.myBetTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // fiftyButton
             // 
@@ -620,7 +613,7 @@
             this.fiftyButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.fiftyButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.fiftyButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.fiftyButton.Location = new System.Drawing.Point(186, -1);
+            this.fiftyButton.Location = new System.Drawing.Point(273, -1);
             this.fiftyButton.Margin = new System.Windows.Forms.Padding(0);
             this.fiftyButton.Name = "fiftyButton";
             this.fiftyButton.Size = new System.Drawing.Size(60, 62);
@@ -629,27 +622,79 @@
             this.fiftyButton.UseVisualStyleBackColor = false;
             this.fiftyButton.Click += new System.EventHandler(this.FiftyBtn_Click);
             // 
-            // playerNameLabel
+            // clearBetButton
             // 
-            this.playerNameLabel.BackColor = System.Drawing.Color.Transparent;
-            this.playerNameLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.playerNameLabel.ForeColor = System.Drawing.SystemColors.Control;
-            this.playerNameLabel.Location = new System.Drawing.Point(277, 540);
-            this.playerNameLabel.Name = "playerNameLabel";
-            this.playerNameLabel.Size = new System.Drawing.Size(100, 23);
-            this.playerNameLabel.TabIndex = 26;
-            this.playerNameLabel.Text = "Player 1";
+            this.clearBetButton.BackColor = System.Drawing.Color.Transparent;
+            this.clearBetButton.BackgroundImage = global::BlackJack.Properties.Resources.ButtonSquare;
+            this.clearBetButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.clearBetButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.clearBetButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.clearBetButton.Location = new System.Drawing.Point(543, 15);
+            this.clearBetButton.Name = "clearBetButton";
+            this.clearBetButton.Size = new System.Drawing.Size(81, 30);
+            this.clearBetButton.TabIndex = 10;
+            this.clearBetButton.Text = "Clear";
+            this.clearBetButton.UseVisualStyleBackColor = false;
+            this.clearBetButton.Click += new System.EventHandler(this.ClearBetBtn_Click);
             // 
-            // photoPictureBox
+            // twentyFiveButton
             // 
-            this.photoPictureBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.photoPictureBox.ImageLocation = "";
-            this.photoPictureBox.Location = new System.Drawing.Point(293, 407);
-            this.photoPictureBox.Name = "photoPictureBox";
-            this.photoPictureBox.Size = new System.Drawing.Size(109, 110);
-            this.photoPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.photoPictureBox.TabIndex = 17;
-            this.photoPictureBox.TabStop = false;
+            this.twentyFiveButton.BackColor = System.Drawing.Color.Transparent;
+            this.twentyFiveButton.BackgroundImage = global::BlackJack.Properties.Resources.coin2;
+            this.twentyFiveButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.twentyFiveButton.FlatAppearance.BorderSize = 0;
+            this.twentyFiveButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.twentyFiveButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.twentyFiveButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.twentyFiveButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.twentyFiveButton.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.twentyFiveButton.Location = new System.Drawing.Point(196, -1);
+            this.twentyFiveButton.Margin = new System.Windows.Forms.Padding(0);
+            this.twentyFiveButton.Name = "twentyFiveButton";
+            this.twentyFiveButton.Size = new System.Drawing.Size(60, 62);
+            this.twentyFiveButton.TabIndex = 6;
+            this.twentyFiveButton.Text = "25";
+            this.twentyFiveButton.UseVisualStyleBackColor = false;
+            this.twentyFiveButton.Click += new System.EventHandler(this.TwentyFiveBtn_Click);
+            // 
+            // oneButton
+            // 
+            this.oneButton.BackColor = System.Drawing.Color.Transparent;
+            this.oneButton.BackgroundImage = global::BlackJack.Properties.Resources.coin1;
+            this.oneButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.oneButton.FlatAppearance.BorderSize = 0;
+            this.oneButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.oneButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.oneButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.oneButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.oneButton.ImageAlign = System.Drawing.ContentAlignment.BottomLeft;
+            this.oneButton.Location = new System.Drawing.Point(44, 0);
+            this.oneButton.Margin = new System.Windows.Forms.Padding(0);
+            this.oneButton.Name = "oneButton";
+            this.oneButton.Size = new System.Drawing.Size(60, 62);
+            this.oneButton.TabIndex = 11;
+            this.oneButton.Tag = "10";
+            this.oneButton.Text = "1";
+            this.oneButton.UseVisualStyleBackColor = false;
+            this.oneButton.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // betPanel
+            // 
+            this.betPanel.BackColor = System.Drawing.Color.Transparent;
+            this.betPanel.BackgroundImage = global::BlackJack.Properties.Resources.BorderPlaceYourBetBottom;
+            this.betPanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.betPanel.Controls.Add(this.oneButton);
+            this.betPanel.Controls.Add(this.twentyFiveButton);
+            this.betPanel.Controls.Add(this.clearBetButton);
+            this.betPanel.Controls.Add(this.fiftyButton);
+            this.betPanel.Controls.Add(this.myBetTextBox);
+            this.betPanel.Controls.Add(this.myBetLabel);
+            this.betPanel.Controls.Add(this.hundredButton);
+            this.betPanel.Controls.Add(this.tenButton);
+            this.betPanel.Location = new System.Drawing.Point(31, 574);
+            this.betPanel.Name = "betPanel";
+            this.betPanel.Size = new System.Drawing.Size(670, 68);
+            this.betPanel.TabIndex = 25;
             // 
             // BlackJackForm
             // 
@@ -657,6 +702,7 @@
             this.BackgroundImage = global::BlackJack.Properties.Resources.Background;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(734, 706);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.betPanel);
             this.Controls.Add(this.recordPanel);
             this.Controls.Add(this.playerNameLabel);
@@ -704,35 +750,21 @@
             ((System.ComponentModel.ISupportInitialize)(this.playerCard5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.playerCard6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.framePictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.photoPictureBox)).EndInit();
             this.recordPanel.ResumeLayout(false);
             this.recordPanel.PerformLayout();
             this.betPanel.ResumeLayout(false);
             this.betPanel.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.photoPictureBox)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.TextBox myAccountTextBox;
-        private System.Windows.Forms.Button tenButton;
-        private System.Windows.Forms.Button twentyFiveButton;
-        private System.Windows.Forms.Button hundredButton;
-        private System.Windows.Forms.TextBox winTextBox;
-        private System.Windows.Forms.TextBox myBetTextBox;
         private System.Windows.Forms.Button hitButton;
         private System.Windows.Forms.Button dealButton;
         private System.Windows.Forms.Button standButton;
-        private System.Windows.Forms.Label myAccountLabel;
-        private System.Windows.Forms.Label myBetLabel;
         private System.Windows.Forms.TextBox gameOverTextBox;
-        private System.Windows.Forms.Label winsLabel;
-        private System.Windows.Forms.Label lossesLabel;
-        private System.Windows.Forms.TextBox lossTextBox;
-        private System.Windows.Forms.Label tiesLabel;
-        private System.Windows.Forms.TextBox tiesTextBox;
         private System.Windows.Forms.PictureBox deckCard1PictureBox;
         private System.Windows.Forms.PictureBox deckCard2PictureBox;
         private System.Windows.Forms.PictureBox deckCard3PictureBox;
@@ -742,7 +774,6 @@
         private System.Windows.Forms.PictureBox dealerCard3PictureBox;
         private System.Windows.Forms.PictureBox dealerCard2PictureBox;
         private System.Windows.Forms.PictureBox dealerCard1PictureBox;
-        private System.Windows.Forms.Button clearBetButton;
         private System.Windows.Forms.Button endGameButton;
         private System.Windows.Forms.PictureBox playerCard1;
         private System.Windows.Forms.PictureBox playerCard2;
@@ -752,10 +783,26 @@
         private System.Windows.Forms.PictureBox playerCard6;
         private System.Windows.Forms.Label playerTotalLabel;
         private System.Windows.Forms.PictureBox framePictureBox;
-        private System.Windows.Forms.Panel recordPanel;
-        private System.Windows.Forms.Panel betPanel;
         private System.Windows.Forms.Label playerNameLabel;
         private System.Windows.Forms.PictureBox photoPictureBox;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox myAccountTextBox;
+        private System.Windows.Forms.Label myAccountLabel;
+        private System.Windows.Forms.TextBox lossTextBox;
+        private System.Windows.Forms.TextBox tiesTextBox;
+        private System.Windows.Forms.TextBox winTextBox;
+        private System.Windows.Forms.Label winsLabel;
+        private System.Windows.Forms.Label tiesLabel;
+        private System.Windows.Forms.Label lossesLabel;
+        private System.Windows.Forms.Panel recordPanel;
+        private System.Windows.Forms.Button tenButton;
+        private System.Windows.Forms.Button hundredButton;
+        private System.Windows.Forms.Label myBetLabel;
+        private System.Windows.Forms.TextBox myBetTextBox;
         private System.Windows.Forms.Button fiftyButton;
+        private System.Windows.Forms.Button clearBetButton;
+        private System.Windows.Forms.Button twentyFiveButton;
+        private System.Windows.Forms.Button oneButton;
+        private System.Windows.Forms.Panel betPanel;
     }
 }

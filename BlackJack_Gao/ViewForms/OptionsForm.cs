@@ -67,23 +67,15 @@ namespace BlackJack
             playerPictureBox.Image = Image.FromFile(Properties.Settings.Default.PlayerImage);
         }
 
-        /// <summary>
-        /// Cancels any changes made in the option form
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
+        // Cancels any changes made in the option form
         private void btnCancel_Click(object sender, EventArgs e)
         {
             Properties.Settings.Default.Reload();
             this.Close();
         }
 
-        /// <summary>
-        /// Saves current changes made in the options form
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        private void btnOK_Click(object sender, EventArgs e)
+        // Saves current changes made in the options form
+      private void btnOK_Click(object sender, EventArgs e)
         {
             // Saves the player name to the settings file
             Properties.Settings.Default.PlayerName = playerNameTextBox.Text;
