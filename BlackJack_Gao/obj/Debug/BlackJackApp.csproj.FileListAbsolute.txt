@@ -1,0 +1,12 @@
+C:\Users\LENOVO\source\repos\BlackJackMVC\BlackJack_Gao\bin\Debug\CardGame.exe.config
+C:\Users\LENOVO\source\repos\BlackJackMVC\BlackJack_Gao\bin\Debug\CardGame.exe
+C:\Users\LENOVO\source\repos\BlackJackMVC\BlackJack_Gao\bin\Debug\CardGame.pdb
+C:\Users\LENOVO\source\repos\BlackJackMVC\BlackJack_Gao\obj\Debug\BlackJackApp.csprojAssemblyReference.cache
+C:\Users\LENOVO\source\repos\BlackJackMVC\BlackJack_Gao\obj\Debug\BlackJack.BlackJackForm.resources
+C:\Users\LENOVO\source\repos\BlackJackMVC\BlackJack_Gao\obj\Debug\BlackJack.OptionsForm.resources
+C:\Users\LENOVO\source\repos\BlackJackMVC\BlackJack_Gao\obj\Debug\BlackJack.StartForm.resources
+C:\Users\LENOVO\source\repos\BlackJackMVC\BlackJack_Gao\obj\Debug\BlackJack.Properties.Resources.resources
+C:\Users\LENOVO\source\repos\BlackJackMVC\BlackJack_Gao\obj\Debug\BlackJackApp.csproj.GenerateResource.cache
+C:\Users\LENOVO\source\repos\BlackJackMVC\BlackJack_Gao\obj\Debug\BlackJackApp.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\source\repos\BlackJackMVC\BlackJack_Gao\obj\Debug\CardGame.exe
+C:\Users\LENOVO\source\repos\BlackJackMVC\BlackJack_Gao\obj\Debug\CardGame.pdb

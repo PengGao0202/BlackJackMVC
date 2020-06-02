@@ -1,0 +1,47 @@
+E:\CardGame1\CardGame1\bin\Debug\CardGame.exe.config
+E:\CardGame1\CardGame1\bin\Debug\CardGame.exe
+E:\CardGame1\CardGame1\bin\Debug\CardGame.pdb
+E:\CardGame1\CardGame1\obj\Debug\ResolveAssemblyReference.cache
+E:\CardGame1\CardGame1\obj\Debug\BlackJack.BlackJackForm.resources
+E:\CardGame1\CardGame1\obj\Debug\BlackJack.OptionsForm.resources
+E:\CardGame1\CardGame1\obj\Debug\BlackJack.StartForm.resources
+E:\CardGame1\CardGame1\obj\Debug\BlackJack.Properties.Resources.resources
+E:\CardGame1\CardGame1\obj\Debug\GenerateResource.read.1.tlog
+E:\CardGame1\CardGame1\obj\Debug\GenerateResource.write.1.tlog
+E:\CardGame1\CardGame1\obj\Debug\CardGame.exe
+E:\CardGame1\CardGame1\obj\Debug\CardGame.pdb
+E:\项目\wwb调试\审核后台源码\CardGame1_7f82c8d3-34fb-4706-a0e6-8acecc5d2643\CardGame1\CardGame1\bin\Debug\CardGame.exe.config
+E:\项目\wwb调试\审核后台源码\CardGame1_7f82c8d3-34fb-4706-a0e6-8acecc5d2643\CardGame1\CardGame1\obj\Debug\CardGame.exe
+E:\项目\wwb调试\审核后台源码\CardGame1_7f82c8d3-34fb-4706-a0e6-8acecc5d2643\CardGame1\CardGame1\obj\Debug\CardGame.pdb
+E:\项目\wwb调试\审核后台源码\CardGame1_7f82c8d3-34fb-4706-a0e6-8acecc5d2643\CardGame1\CardGame1\bin\Debug\CardGame.exe
+E:\项目\wwb调试\审核后台源码\CardGame1_7f82c8d3-34fb-4706-a0e6-8acecc5d2643\CardGame1\CardGame1\bin\Debug\CardGame.pdb
+E:\项目\wwb调试\审核后台源码\CardGame1_7f82c8d3-34fb-4706-a0e6-8acecc5d2643\CardGame1\CardGame1\obj\Debug\BlackJack.BlackJackForm.resources
+E:\项目\wwb调试\审核后台源码\CardGame1_7f82c8d3-34fb-4706-a0e6-8acecc5d2643\CardGame1\CardGame1\obj\Debug\BlackJack.OptionsForm.resources
+E:\项目\wwb调试\审核后台源码\CardGame1_7f82c8d3-34fb-4706-a0e6-8acecc5d2643\CardGame1\CardGame1\obj\Debug\BlackJack.StartForm.resources
+E:\项目\wwb调试\审核后台源码\CardGame1_7f82c8d3-34fb-4706-a0e6-8acecc5d2643\CardGame1\CardGame1\obj\Debug\BlackJack.Properties.Resources.resources
+E:\项目\wwb调试\审核后台源码\CardGame1_7f82c8d3-34fb-4706-a0e6-8acecc5d2643\CardGame1\CardGame1\obj\Debug\CardGame1.csproj.GenerateResource.Cache
+E:\项目\wwb调试\审核后台源码\CardGame1_7f82c8d3-34fb-4706-a0e6-8acecc5d2643\CardGame1\CardGame1\obj\Debug\CardGame1.csprojResolveAssemblyReference.cache
+C:\Users\Utilisateur\Desktop\BlackJackGame_1.0\bin\Debug\CardGame.exe.config
+C:\Users\Utilisateur\Desktop\BlackJackGame_1.0\bin\Debug\CardGame.exe
+C:\Users\Utilisateur\Desktop\BlackJackGame_1.0\bin\Debug\CardGame.pdb
+C:\Users\Utilisateur\Desktop\BlackJackGame_1.0\obj\Debug\CardGame1.csprojAssemblyReference.cache
+C:\Users\Utilisateur\Desktop\BlackJackGame_1.0\obj\Debug\BlackJack.BlackJackForm.resources
+C:\Users\Utilisateur\Desktop\BlackJackGame_1.0\obj\Debug\BlackJack.OptionsForm.resources
+C:\Users\Utilisateur\Desktop\BlackJackGame_1.0\obj\Debug\BlackJack.StartForm.resources
+C:\Users\Utilisateur\Desktop\BlackJackGame_1.0\obj\Debug\BlackJack.Properties.Resources.resources
+C:\Users\Utilisateur\Desktop\BlackJackGame_1.0\obj\Debug\CardGame1.csproj.GenerateResource.cache
+C:\Users\Utilisateur\Desktop\BlackJackGame_1.0\obj\Debug\CardGame1.csproj.CoreCompileInputs.cache
+C:\Users\Utilisateur\Desktop\BlackJackGame_1.0\obj\Debug\CardGame.exe
+C:\Users\Utilisateur\Desktop\BlackJackGame_1.0\obj\Debug\CardGame.pdb
+C:\Users\LENOVO\OneDrive - John Abbott College\420-P55-AB (ASP ADO.NET)\final project\BlackJackGame_1.0\bin\Debug\CardGame.exe.config
+C:\Users\LENOVO\OneDrive - John Abbott College\420-P55-AB (ASP ADO.NET)\final project\BlackJackGame_1.0\bin\Debug\CardGame.exe
+C:\Users\LENOVO\OneDrive - John Abbott College\420-P55-AB (ASP ADO.NET)\final project\BlackJackGame_1.0\bin\Debug\CardGame.pdb
+C:\Users\LENOVO\OneDrive - John Abbott College\420-P55-AB (ASP ADO.NET)\final project\BlackJackGame_1.0\obj\Debug\CardGame1.csprojAssemblyReference.cache
+C:\Users\LENOVO\OneDrive - John Abbott College\420-P55-AB (ASP ADO.NET)\final project\BlackJackGame_1.0\obj\Debug\BlackJack.BlackJackForm.resources
+C:\Users\LENOVO\OneDrive - John Abbott College\420-P55-AB (ASP ADO.NET)\final project\BlackJackGame_1.0\obj\Debug\BlackJack.OptionsForm.resources
+C:\Users\LENOVO\OneDrive - John Abbott College\420-P55-AB (ASP ADO.NET)\final project\BlackJackGame_1.0\obj\Debug\BlackJack.StartForm.resources
+C:\Users\LENOVO\OneDrive - John Abbott College\420-P55-AB (ASP ADO.NET)\final project\BlackJackGame_1.0\obj\Debug\BlackJack.Properties.Resources.resources
+C:\Users\LENOVO\OneDrive - John Abbott College\420-P55-AB (ASP ADO.NET)\final project\BlackJackGame_1.0\obj\Debug\CardGame1.csproj.GenerateResource.cache
+C:\Users\LENOVO\OneDrive - John Abbott College\420-P55-AB (ASP ADO.NET)\final project\BlackJackGame_1.0\obj\Debug\CardGame1.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\OneDrive - John Abbott College\420-P55-AB (ASP ADO.NET)\final project\BlackJackGame_1.0\obj\Debug\CardGame.exe
+C:\Users\LENOVO\OneDrive - John Abbott College\420-P55-AB (ASP ADO.NET)\final project\BlackJackGame_1.0\obj\Debug\CardGame.pdb
