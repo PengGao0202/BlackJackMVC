@@ -55,7 +55,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Models\Card.cs" />
-    <Compile Include="Controller\BlackJackGame.cs" />
+    <Compile Include="Models\BlackJackGame.cs" />
     <Compile Include="ViewForms\OptionsForm.cs">
       <SubType>Form</SubType>
     </Compile>

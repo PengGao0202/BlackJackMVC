@@ -21,7 +21,6 @@ namespace BlackJackMVC.Controllers
         {
             return View();
         }
-
         public IActionResult Deal()
         {
             try
@@ -56,11 +55,10 @@ namespace BlackJackMVC.Controllers
             }
             return RedirectToAction("index");
         }
-
         public IActionResult NewGame()
         {
             //Creates a new blackjack game with one player and an inital balance set through the settings designer
-            game = new BlackJackGame(100);
+            game = new BlackJackGame(500);
             firstTurn = true;
             ShowBankValue();
             return RedirectToAction("index");
@@ -124,11 +122,49 @@ namespace BlackJackMVC.Controllers
             }
             return endState;
         }
-        public IActionResult Bet5()
+        public IActionResult Bet1()
         {
-            Bet(5);
+            Bet(1);
             return RedirectToAction("index");
         }
+
+        public IActionResult Bet10()
+        {
+            Bet(10);
+            return RedirectToAction("index");
+        }
+
+        public IActionResult Bet25()
+        {
+            Bet(25);
+            return RedirectToAction("index");
+        }
+
+        public IActionResult Bet50()
+        {
+            Bet(50);
+            return RedirectToAction("index");
+        }
+
+        public IActionResult Bet100()
+        {
+            Bet(100);
+            return RedirectToAction("index");
+        }
+
+        public IActionResult BetAll()
+        {
+            Bet(game.CurrentPlayer.Balance - game.CurrentPlayer.Bet);
+            return RedirectToAction("index");
+        }
+
+        public IActionResult BetClear()
+        {
+            game.CurrentPlayer.ClearBet();
+            ShowBankValue();
+            return RedirectToAction("index");
+        }
+
         /// <summary>
         /// Refresh the UI to update the player cards
         /// </summary>

@@ -11,10 +11,8 @@ namespace BlackJack.CardGameFramework
         // Returns the card at the given position
         public Card this[int position] { get { return (Card)cards[position]; } }
 
-        /// <summary>
-        /// One complete deck with every face value and suit
-        /// </summary>
-        public Deck()
+        // One complete deck with every face value and suit
+         public Deck()
         {
             foreach (Suit suit in Enum.GetValues(typeof(Suit)))
             {
@@ -25,10 +23,7 @@ namespace BlackJack.CardGameFramework
             }
         }
 
-        /// <summary>
-        /// Draws one card and removes it from the deck
-        /// </summary>
-        /// <returns></returns>
+        // Draws one card and removes it from the deck
         public Card Draw()
         {
             Card card = cards[0];
@@ -36,9 +31,7 @@ namespace BlackJack.CardGameFramework
             return card;
         }
 
-        /// <summary>
-        /// Shuffles the cards in the deck
-        /// </summary>
+        // Shuffles the cards in the deck
         public void Shuffle()
         {
             Random random = new Random();
@@ -50,11 +43,7 @@ namespace BlackJack.CardGameFramework
             }
         }
 
-        /// <summary>
-        /// Swaps the placement of two cards
-        /// </summary>
-        /// <param name="index1"></param>
-        /// <param name="index2"></param>
+        // Swaps the placement of two cards
         private void SwapCard(int index1, int index2)
         {
             Card card = cards[index1];

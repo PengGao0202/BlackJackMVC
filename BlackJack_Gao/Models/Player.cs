@@ -30,15 +30,10 @@ namespace BlackJack
         public int Losses { get { return losses; } set { losses = value; } }
         public int Push { get { return pushes; } set { pushes = value; } }
 
-        /// <summary>
-        /// Creates a player with a default balance account (i.e. it doesn't matter what the dealer's balance is)
-        /// </summary>
-        public Player() : this(-1) { }
+        // Creates a player with a default balance account (i.e. it doesn't matter what the dealer's balance is)
+         public Player() : this(-1) { }
 
-        /// <summary>
-        ///  Creates a player with a new hand and new balance
-        /// </summary>
-        /// <param name="newBalance"></param>
+        //  Creates a player with a new hand and new balance
         public Player(int newBalance)
         {
             // Sets the player's image and name that is displayed in the picture frame in the UI.
@@ -48,10 +43,7 @@ namespace BlackJack
             this.balance = newBalance;
         }
 
-        /// <summary>
-        /// Increases the bet amount each time a bet is added to the hand.  Invoked through the betting coins in the BlackJackForm.cs UI
-        /// </summary>
-        /// <param name="amt"></param>
+        // Increases the bet amount each time a bet is added to the hand.  Invoked through the betting coins in the BlackJackForm.cs UI
         public void IncreaseBet(decimal amt)
         {
             // Check to see if the user has enough money to make this bet
@@ -66,9 +58,7 @@ namespace BlackJack
             }
         }
 
-        /// <summary>
-        /// Places the bet and subtracts the amount from "My Account"
-        /// </summary>
+        // Places the bet and subtracts the amount from "My Account"
         public void PlaceBet()
         {
             // Check to see if the user has enough money to place this bet
@@ -82,50 +72,38 @@ namespace BlackJack
             }
         }
 
-        /// <summary>
-        /// Creates a new hand for the current player
-        /// </summary>
-        /// <returns>BlackJackHand</returns>
+
+        // Creates a new hand for the current player
         public BlackJackHand NewHand()
         {
             this.hand = new BlackJackHand();
             return this.hand;
         }
 
-        /// <summary>
         /// Set the bet value back to 0
-        /// </summary>
         public void ClearBet()
         {
             bet = 0;
         }
 
-        /// <summary>
-        /// Check if the current player has BlackJack
-        /// </summary>
-        /// <returns>Returns true if the current player has BlackJack</returns>
-        public bool HasBlackJack()
+        // Check if the current player has BlackJack
+         public bool HasBlackJack()
         {
             if (hand.GetSumOfHand() == 21)
                 return true;
             else return false;
         }
 
-        /// <summary>
-        /// Check if the current player has bust
-        /// </summary>
-        /// <returns>returns true if the current player has bust</returns>
-        public bool HasBust()
+        // Check if the current player has bust
+         public bool HasBust()
         {
             if (hand.GetSumOfHand() > 21)
                 return true;
             else return false;
         }
 
-        /// <summary>
-        /// Player has hit, draw a card from the deck and add it to the player's hand
-        /// </summary>
-        public void Hit()
+        // Player has hit, draw a card from the deck and add it to the player's hand
+         public void Hit()
         {
             Card c = currentDeck.Draw();
             hand.Cards.Add(c);

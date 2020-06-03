@@ -120,41 +120,25 @@ namespace BlackJack
             this.Close();
         }
 
-        /// <summary>
-        /// Place a bet for 1 dollar
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        private void button1_Click(object sender, EventArgs e)
+        // Place a bet for 1 dollar
+         private void button1_Click(object sender, EventArgs e)
         {
             Bet(1);
         }
 
-        /// <summary>
         /// Place a bet for 10 dollars
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
         private void TenBtn_Click(object sender, EventArgs e)
         {
             Bet(10);
         }
 
-        /// <summary>
-        /// Place a bet for 25 dollars
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        private void TwentyFiveBtn_Click(object sender, EventArgs e)
+        // Place a bet for 25 dollars
+         private void TwentyFiveBtn_Click(object sender, EventArgs e)
         {
             Bet(25);
         }
 
-        /// <summary>
-        /// Place a bet for 50 dollars
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
+        // Place a bet for 50 dollars
         private void FiftyBtn_Click(object sender, EventArgs e)
         {
             Bet(50);

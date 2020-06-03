@@ -10,11 +10,7 @@ namespace BlackJack.CardGameFramework
         public int NumCards { get { return cards.Count; } }
         public List<Card> Cards { get { return cards; } }
 
-        /// <summary>
         /// Checks to see if the hand contains a card of a certain face value
-        /// </summary>
-        /// <param name="item"></param>
-        /// <returns></returns>
         public bool ContainsCard(FaceValue item)
         {
             foreach (Card c in cards)
@@ -28,16 +24,10 @@ namespace BlackJack.CardGameFramework
         }
     }
 
-    /// <summary>
-    /// This class is game-specific.  Creates a BlackJack hand that inherits from class hand
-    /// </summary>
+    //Creates a BlackJack hand that inherits from class hand
     public class BlackJackHand : Hand
     {
-        /// <summary>
-        /// This method compares two BlackJack hands
-        /// </summary>
-        /// <param name="otherHand"></param>
-        /// <returns></returns>
+        // This method compares two BlackJack hands
         public int CompareFaceValue(object otherHand)
         {
             BlackJackHand aHand = otherHand as BlackJackHand;
@@ -51,11 +41,8 @@ namespace BlackJack.CardGameFramework
             }
         }
 
-        /// <summary>
-        /// Gets the total value of a hand from BlackJack values
-        /// </summary>
-        /// <returns>int</returns>
-        public int GetSumOfHand()
+        // Gets the total value of a hand from BlackJack values
+         public int GetSumOfHand()
         {
             int val = 0;
             int numAces = 0;
